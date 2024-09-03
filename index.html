@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#" >Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#" >Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib-option nav-option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#" >Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-1">Create your first playlist</p>
+                        <p class="box-2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-1">Let's find some podcast to follow</p>
+                        <p class="box-2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcast</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="s-nav-icons">
+                    <img src="./assets/backward_icon.png">
+                    <img class="hide" src="./assets/forward_icon.png">
+                </div>
+                <div class="s-nav-button">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge" ><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                </div>
+            <div class="tit">
+                <h2 class="info">Recently Played</h2>
+                <h5 class="show">Show all</h5>
+            </div>    
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Homework Assets/track.jpeg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">Tu hai kahan</p>
+                    <p class="card-info">AUR</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Anuv-Jain-Antariksh.jpg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">Antarisksh</p>
+                    <p class="card-info">Anuv Jain</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Husn.jpg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">Husn</p>
+                    <p class="card-info">Anuv Jain</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Window Shyari.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">Window Shayari</p>
+                    <p class="card-info">MC Insane</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 231313.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                   
+                    <p class="card-title">Gumaan</p>
+                    <p class="card-info">Young Stunners</p>
+                </div>
+            </div>
+            
+            <div class="tit">
+                <h2 class="info">Featured For You</h2>
+                <h5 class="show">Show all</h5>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 230838.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    <p class="card-title">Mishri</p>
+                    <p class="card-info">Anuv Jain</p>
+                </div>
+            
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 230952.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">The Heal Album</p>
+                    <p class="card-info">MC Insane</p>
+                </div>
+            
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 231343.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">Maan Meri Jaan</p>
+                    <p class="card-info">King</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 231058.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">2010s Mix</p>
+                    <p class="card-info">King, Emiway, Krsna, Badshah, Honey Singh.....</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 232323.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">King Of Indian Hip Hop</p>
+                    <p class="card-info">Emiway Bantai</p>
+                </div>
+            </div>
+
+            <div class="tit">
+                <h2 class="info">Top Trending</h2>
+                <h5 class="show">Show all</h5>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./assets/card5img.jpeg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">TOP SONGS GLOBAL</p>
+                    <p class="card-info">Your daily update of most played....</p>
+                </div>
+            
+            
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./assets/card6img.jpeg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">TOP SONGS INDIA</p>
+                    <p class="card-info">Songs Which Most Of Indian Vibing......</p>
+                </div>
+            
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/top india.jpg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">TOP 50 - INDIA</p>
+                    <p class="card-info">Who's on top, isn't your favorite artist....</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./assets/card1img.jpeg">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">TOP 50 - GLOBAL</p>
+                    <p class="card-info">Listen To what World is kinda listening everyday....</p>
+                </div>
+                <div class="card">
+                    <div class="img-container">
+                        <img class="card-img" src="./Songs/Screenshot 2024-07-28 231120.png">
+                        <img class="card-icon" src="./Songs/icon.png">
+                    </div>
+                    
+                    <p class="card-title">TOP PUNJABI ARTIST - 2023</p>
+                    <p class="card-info">Here, Some of the Punjabi's rocking the world.....</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="track">
+                <img class="playing" src="./Homework Assets/track.jpeg">
+                <div class="track-info">
+                    <p class="t-title">Tu Hai Kahan</p>
+                    <p class="t-artist">AUR</p>
+                </div>
+                <img class="img-icon " src="./Homework Assets/album_icon1.png">
+                <img class="img-icon " style="height: 2rem; margin-left: 1rem;" src="./Homework Assets/album_icon2.png">
+            </div>
+            <div class="playback">
+                <div class="playback-opt">
+                    <img src="./assets/player_icon1.png" class="icon">
+                    <img src="./assets/player_icon2.png" class="icon">
+                    <img src="./assets/player_icon3.png" class="icon" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="icon">
+                    <img src="./assets/player_icon5.png" class="icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1"> 
+                    <span class="end-time">04:00</span>
+                </div>
+                   
+            </div>
+            <div class="other-option">
+                <img class="track-buttons" src="./Homework Assets/controls_icon1.png" style="height: 2.5rem;">
+                <img class="track-buttons" src="./Homework Assets/controld_icon2 - Copy.png" style="height: 2.5rem;">
+                <img class="track-buttons" src="./Homework Assets/controls_icon3.png" style="height: 1.5rem;">
+                <img class="track-buttons" src="./Homework Assets/controls_icon4.png" style="height: 1.3rem;">
+                <img class="track-buttons" src="./Homework Assets/controls_icon5.png" style="height: 2.5rem;">
+                <input type="range" min="0" max="100" class="vol-bar" step="1">
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
